@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff6bb3;
+    color: #ff97cc;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.container {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 45%;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 192, 203, 0.4);    
+}
+
+header {
+    background-color: #ff6bb3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px; /* Limita el ancho máximo para que no se vea demasiado amplio en pantallas grandes */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el ancho y alto total */
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid purple;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.social-icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icons a {
+    display: inline-block; /* Para que los íconos estén uno al lado del otro */
+}
+
+.social-icons img {
+    width: 20px; /* Ajusta el tamaño de los íconos según sea necesario */
+    height: auto; /* Para mantener la proporción de aspecto */
+}
+.container img {
+    max-width: 100%; /* Limita el ancho máximo de las imágenes al ancho del contenedor */
+    height: auto; /* Ajusta automáticamente la altura para mantener la proporción de aspecto */
+    display: block; /* Evita el espacio adicional debajo de las imágenes */
+}
+
+
+/*PRUEBA*/
+
+#searchResults {
+    max-width: 800px; /* Limita el ancho máximo para una mejor legibilidad */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    padding: 20px;
+}
+
+.container {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.container img {
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto;
+}
+
+.container h2 {
+    text-align: center; /* Centra el texto */   color: black;
+}
+
+.container p {
+    text-align: justify; /* Justifica el texto */
+    margin-bottom: 10px;
+    color: black;
+}
+
+.social-icons {
+    text-align: center; /* Centra los íconos de redes sociales */
+}
+
+.social-icons a {
+    display: inline-block; /* Alinea los íconos horizontalmente */
+    margin-right: 10px;
+}
+
+#searchInput {
+    display: block;
+    margin: 0 auto; /* Centra el input de búsqueda horizontalmente */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: calc(100% - 80px); /* Calcula el ancho del input para dejar espacio para el botón de búsqueda */
+    max-width: 400px; /* Limita el ancho máximo del input */
+}
+
+#searchButton {
+    display: block;
+    margin: 10px auto; /* Centra el botón de búsqueda horizontalmente */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #a85094;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#searchButton:hover {
+    background-color: #653c76;
+}
+
+.contenedor {
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos en la parte superior del contenedor */
+    position: relative; /* Establece el posicionamiento relativo para que los elementos absolutos se posicionen dentro de él */
+    width: 100%; /* Ajusta el ancho del contenedor al 100% del contenedor padre */
+    height: 200px; /* Altura fija del contenedor */
+}
+
+.contenedor img {
+    width: 100px; /* Ancho fijo de la imagen en píxeles */
+    height: auto; /* Altura ajustada automáticamente para mantener la proporción de la imagen */
+    position: absolute; /* Establece el posicionamiento absoluto para la imagen */
+    top: 0; /* La imagen estará alineada con la parte superior del contenedor */
+    left: 0; /* La imagen estará alineada con la parte izquierda del contenedor */
+}
